@@ -1,0 +1,19 @@
+Source: fonts-twemoji-svginot
+Section: fonts
+Priority: extra
+Standards-Version: 3.9.5
+Maintainer: Brad Erickson <eosrei@gmail.com>
+Build-Depends: debhelper (>= 9)
+Homepage: https://github.com/13rac1/twemoji-color-font
+
+Package: fonts-twemoji-svginot
+Architecture: all
+Multi-Arch: foreign
+Depends:
+  ${misc:Depends},
+  fontconfig,
+  ttf-bitstream-vera
+Enhances:
+  firefox
+Description: Twitter Emoji color emoji SVGinOT font
+ A color emoji SVGinOT font created from Twitter for Everyone emoji graphics
